@@ -31,5 +31,10 @@ Contact me if you want to join us!
       <th>✔</th>
       <th></th>
     </tr>
+    <tr>
+      <th><a href="https://www.hackerrank.com/challenges/repeated-string">repeated-string</a></th>
+      <th>✔</th>
+      <th></th>
+    </tr>
   </tbody>
 </table>
