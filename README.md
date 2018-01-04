@@ -54,6 +54,12 @@ Contact me if you want to join us!
       <th></th>
     </tr>
     <tr>
+      <th><a href="https://www.hackerrank.com/challenges/plus-minus">plus-minus</a></th>
+      <th>✔</th>
+      <th>✔</th>
+      <th></th>
+    </tr>
+    <tr>
       <th><a href="https://www.hackerrank.com/challenges/repeated-string">repeated-string</a></th>
       <th>✔</th>
       <th></th>
