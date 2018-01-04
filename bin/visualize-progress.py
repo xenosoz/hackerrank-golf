@@ -28,7 +28,7 @@ def domains_path():
     return os.path.join(hackerrank_golf_path(), 'domains')
 
 def users():
-    return ['xenosoz', '같이 해요!']
+    return ['xenosoz', 'daebak', '같이 해요!']
 
 def filestats():
     pattern = '\.'.join([
