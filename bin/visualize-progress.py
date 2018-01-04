@@ -60,7 +60,7 @@ def progress_table():
         ret.append(s)
 
     stats = list(filestats())
-    challenges = sorted(x['challenge_id'] for x in stats)
+    challenges = sorted(set(x['challenge_id'] for x in stats))
     oracle = set((x['user_id'], x['challenge_id']) for x in stats)
 
     print('<table>')
