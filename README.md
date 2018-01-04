@@ -19,12 +19,24 @@ Contact me if you want to join us!
   <tbody>
     <tr>
       <th><a href="https://www.hackerrank.com/challenges/a-very-big-sum">a-very-big-sum</a></th>
+      <th>✔</th>
+      <th>✔</th>
       <th></th>
+    </tr>
+    <tr>
+      <th><a href="https://www.hackerrank.com/challenges/a-very-big-sum">a-very-big-sum</a></th>
+      <th>✔</th>
       <th>✔</th>
       <th></th>
     </tr>
     <tr>
       <th><a href="https://www.hackerrank.com/challenges/apple-and-orange">apple-and-orange</a></th>
+      <th>✔</th>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <th><a href="https://www.hackerrank.com/challenges/compare-the-triplets">compare-the-triplets</a></th>
       <th>✔</th>
       <th></th>
       <th></th>
