@@ -36,6 +36,12 @@ Contact me if you want to join us!
       <th></th>
     </tr>
     <tr>
+      <th><a href="https://www.hackerrank.com/challenges/diagonal-difference">diagonal-difference</a></th>
+      <th>✔</th>
+      <th>✔</th>
+      <th></th>
+    </tr>
+    <tr>
       <th><a href="https://www.hackerrank.com/challenges/equality-in-a-array">equality-in-a-array</a></th>
       <th>✔</th>
       <th></th>
