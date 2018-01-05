@@ -54,6 +54,12 @@ Contact me if you want to join us!
       <th></th>
     </tr>
     <tr>
+      <th><a href="https://www.hackerrank.com/challenges/mini-max-sum">mini-max-sum</a></th>
+      <th></th>
+      <th><a href="bin/../domains/algorithms-warmup/mini-max-sum/daebak.mini-max-sum.python3.py" alt="daebak.mini-max-sum.python3.py">✔</a></th>
+      <th></th>
+    </tr>
+    <tr>
       <th><a href="https://www.hackerrank.com/challenges/plus-minus">plus-minus</a></th>
       <th><a href="bin/../domains/algorithms-warmup/plus-minus/xenosoz.plus-minus.python3.py" alt="xenosoz.plus-minus.python3.py">✔</a></th>
       <th><a href="bin/../domains/algorithms-warmup/plus-minus/daebak.plus-minus.python3.py" alt="daebak.plus-minus.python3.py">✔</a></th>
@@ -63,6 +69,12 @@ Contact me if you want to join us!
       <th><a href="https://www.hackerrank.com/challenges/repeated-string">repeated-string</a></th>
       <th><a href="bin/../domains/algorithms-implementation/repeated-string/xenosoz.repeated-string.python3.py" alt="xenosoz.repeated-string.python3.py">✔</a></th>
       <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <th><a href="https://www.hackerrank.com/challenges/staircase">staircase</a></th>
+      <th></th>
+      <th><a href="bin/../domains/algorithms-warmup/staircase/daebak.staircase.python3.py" alt="daebak.staircase.python3.py">✔</a></th>
       <th></th>
     </tr>
   </tbody>
