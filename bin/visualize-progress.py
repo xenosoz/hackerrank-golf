@@ -78,7 +78,7 @@ def progress_table():
         print('      <th>{}</th>'.format(chal_to_link(chal)))
         for user in users():
             solved = ((user, chal) in oracle)
-            print('      <th>{}</th>'.format(['', '✔'][solved]))
+            print('      <th>{}</th>'.format(['', '\u2714'][solved]))  # u2714: HEAVY CHECK MARK (✔)
         print('    </tr>')
     print('  </tbody>')
     print('</table>')
