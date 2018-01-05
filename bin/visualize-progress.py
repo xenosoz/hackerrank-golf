@@ -6,6 +6,8 @@ import sys
 import re
 from textwrap import dedent
 from glob import glob
+from collections import defaultdict
+
 
 def header():
     x = '''
@@ -42,7 +44,9 @@ def filestats():
         basename = os.path.basename(filepath)
         m = re.match(pattern, basename)
         if m:
-            yield m.groupdict()
+            d = m.groupdict()
+            d['filepath'] = filepath
+            yield d
 
 
 def chal_to_url(chal):
@@ -61,7 +65,9 @@ def progress_table():
 
     stats = list(filestats())
     challenges = sorted(set(x['challenge_id'] for x in stats))
-    oracle = set((x['user_id'], x['challenge_id']) for x in stats)
+    oracle = defaultdict(list)
+    for x in stats:
+        oracle[(x['user_id'], x['challenge_id'])].append(x)
 
     print('<table>')
     print('  <thead>')
@@ -77,8 +83,14 @@ def progress_table():
         print('    <tr>')
         print('      <th>{}</th>'.format(chal_to_link(chal)))
         for user in users():
-            solved = ((user, chal) in oracle)
-            print('      <th>{}</th>'.format(['', '\u2714'][solved]))  # u2714: HEAVY CHECK MARK (✔)
+            link = ''
+            checkmark = '\u2714'  # U+2714: HEAVY CHECK MARK (✔)
+
+            solved = oracle.get((user, chal), [])
+            if solved:
+                link = ''.join('<a href="{}" alt="{}">{}</a>'.format(x['filepath'], os.path.basename(x['filepath']), checkmark) for x in solved)
+
+            print('      <th>{}</th>'.format(link))
         print('    </tr>')
     print('  </tbody>')
     print('</table>')
