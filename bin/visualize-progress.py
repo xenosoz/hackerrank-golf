@@ -29,8 +29,11 @@ def hackerrank_golf_path():
 def domains_path():
     return os.path.join(hackerrank_golf_path(), 'domains')
 
+def replace_to_slash(s):
+    return s.replace('\\', '/')
+
 def users():
-    return ['xenosoz', 'daebak', '같이 해요!']
+    return ['xenosoz', 'daebak', 'Join us!']
 
 def filestats():
     pattern = '\.'.join([
@@ -45,7 +48,7 @@ def filestats():
         m = re.match(pattern, basename)
         if m:
             d = m.groupdict()
-            d['filepath'] = filepath
+            d['filepath'] = replace_to_slash(filepath)
             yield d
 
 
@@ -84,7 +87,7 @@ def progress_table():
         print('      <th>{}</th>'.format(chal_to_link(chal)))
         for user in users():
             link = ''
-            checkmark = '\u2714'  # U+2714: HEAVY CHECK MARK (✔)
+            checkmark = 'py3'  # U+2714: HEAVY CHECK MARK (✔)
 
             solved = oracle.get((user, chal), [])
             if solved:
