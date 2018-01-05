@@ -31,7 +31,7 @@ Contact me if you want to join us!
     </tr>
     <tr>
       <th><a href="https://www.hackerrank.com/challenges/birthday-cake-candles">birthday-cake-candles</a></th>
-      <th></th>
+      <th><a href="bin/../domains/algorithms-warmup/birthday-cake-candles/xenosoz.birthday-cake-candles.python3.py" alt="xenosoz.birthday-cake-candles.python3.py">py3</a></th>
       <th><a href="bin/../domains/algorithms-warmup/birthday-cake-candles/daebak.birthday-cake-candles.python3.py" alt="daebak.birthday-cake-candles.python3.py">py3</a></th>
       <th></th>
     </tr>
@@ -85,7 +85,7 @@ Contact me if you want to join us!
     </tr>
     <tr>
       <th><a href="https://www.hackerrank.com/challenges/time-conversion">time-conversion</a></th>
-      <th></th>
+      <th><a href="bin/../domains/algorithms-warmup/time-conversion/xenosoz.time-conversion.python3.py" alt="xenosoz.time-conversion.python3.py">py3</a></th>
       <th><a href="bin/../domains/algorithms-warmup/time-conversion/daebak.time-conversion.python3.py" alt="daebak.time-conversion.python3.py">py3</a></th>
       <th></th>
     </tr>
