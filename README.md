@@ -61,7 +61,7 @@ Contact me if you want to join us!
     </tr>
     <tr>
       <th><a href="https://www.hackerrank.com/challenges/kangaroo">kangaroo</a></th>
-      <th></th>
+      <th><a href="bin/../domains/algorithms-implementation/kangaroo/xenosoz.kangaroo.python3.py" alt="xenosoz.kangaroo.python3.py">py3</a></th>
       <th><a href="bin/../domains/algorithms-implementation/kangaroo/daebak.kangaroo.python3.py" alt="daebak.kangaroo.python3.py">py3</a></th>
       <th></th>
     </tr>
