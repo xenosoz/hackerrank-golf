@@ -43,7 +43,7 @@ Contact me if you want to join us!
     </tr>
     <tr>
       <th><a href="https://www.hackerrank.com/challenges/breaking-best-and-worst-records">breaking-best-and-worst-records</a></th>
-      <th></th>
+      <th><a href="bin/../domains/algorithms-implementation/breaking-best-and-worst-records/xenosoz.breaking-best-and-worst-records.python3.py" alt="xenosoz.breaking-best-and-worst-records.python3.py">py3</a></th>
       <th><a href="bin/../domains/algorithms-implementation/breaking-best-and-worst-records/daebak.breaking-best-and-worst-records.python3.py" alt="daebak.breaking-best-and-worst-records.python3.py">py3</a></th>
       <th></th>
     </tr>
