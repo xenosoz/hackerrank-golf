@@ -103,7 +103,7 @@ Contact me if you want to join us!
     </tr>
     <tr>
       <th><a href="https://www.hackerrank.com/challenges/the-birthday-bar">the-birthday-bar</a></th>
-      <th></th>
+      <th><a href="bin/../domains/algorithms-implementation/the-birthday-bar/xenosoz.the-birthday-bar.python3.py" alt="xenosoz.the-birthday-bar.python3.py">py3</a></th>
       <th><a href="bin/../domains/algorithms-implementation/the-birthday-bar/daebak.the-birthday-bar.python3.py" alt="daebak.the-birthday-bar.python3.py">py3</a></th>
       <th></th>
     </tr>
