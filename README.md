@@ -43,7 +43,7 @@ Contact me if you want to join us!
     </tr>
     <tr>
       <th><a href="https://www.hackerrank.com/challenges/bon-appetit">bon-appetit</a></th>
-      <th></th>
+      <th><a href="bin/../domains/algorithms-implementation/bon-appetit/xenosoz.bon-appetit.python3.py" alt="xenosoz.bon-appetit.python3.py">py3</a></th>
       <th><a href="bin/../domains/algorithms-implementation/bon-appetit/daebak.bon-appetit.python3.py" alt="daebak.bon-appetit.python3.py">py3</a></th>
       <th></th>
     </tr>
@@ -79,7 +79,7 @@ Contact me if you want to join us!
     </tr>
     <tr>
       <th><a href="https://www.hackerrank.com/challenges/drawing-book">drawing-book</a></th>
-      <th></th>
+      <th><a href="bin/../domains/algorithms-implementation/drawing-book/xenosoz.drawing-book.python3.py" alt="xenosoz.drawing-book.python3.py">py3</a></th>
       <th><a href="bin/../domains/algorithms-implementation/drawing-book/daebak.drawing-book.python3.py" alt="daebak.drawing-book.python3.py">py3</a></th>
       <th></th>
     </tr>
@@ -103,7 +103,7 @@ Contact me if you want to join us!
     </tr>
     <tr>
       <th><a href="https://www.hackerrank.com/challenges/migratory-birds">migratory-birds</a></th>
-      <th></th>
+      <th><a href="bin/../domains/algorithms-implementation/migratory-birds/xenosoz.migratory-birds.python3.py" alt="xenosoz.migratory-birds.python3.py">py3</a></th>
       <th><a href="bin/../domains/algorithms-implementation/migratory-birds/daebak.migratory-birds.python3.py" alt="daebak.migratory-birds.python3.py">py3</a></th>
       <th></th>
     </tr>
@@ -127,7 +127,7 @@ Contact me if you want to join us!
     </tr>
     <tr>
       <th><a href="https://www.hackerrank.com/challenges/sock-merchant">sock-merchant</a></th>
-      <th></th>
+      <th><a href="bin/../domains/algorithms-implementation/sock-merchant/xenosoz.sock-merchant.python3.py" alt="xenosoz.sock-merchant.python3.py">py3</a></th>
       <th><a href="bin/../domains/algorithms-implementation/sock-merchant/daebak.sock-merchant.python3.py" alt="daebak.sock-merchant.python3.py">py3</a></th>
       <th></th>
     </tr>
