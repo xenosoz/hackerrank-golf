@@ -61,7 +61,7 @@ Contact me if you want to join us!
     </tr>
     <tr>
       <th><a href="https://www.hackerrank.com/challenges/counting-valleys">counting-valleys</a></th>
-      <th></th>
+      <th><a href="bin/../domains/algorithms-implementation/counting-valleys/xenosoz.counting-valleys.python3.py" alt="xenosoz.counting-valleys.python3.py">py3</a></th>
       <th><a href="bin/../domains/algorithms-implementation/counting-valleys/daebak.counting-valleys.python3.py" alt="daebak.counting-valleys.python3.py">py3</a></th>
       <th></th>
     </tr>
