@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 '''Generate progress graph and overwrite to README.md'''
 
-import os
 import sys
 import re
+from pathlib import Path
 from textwrap import dedent
 from glob import glob
 from collections import defaultdict
@@ -21,19 +21,24 @@ def header():
     return dedent(x)
 
 def here():
-    return os.path.dirname(sys.argv[0])
+    return Path(sys.argv[0]).parent
 
 def hackerrank_golf_path():
-    return os.path.join(here(), '..')
+    return here().joinpath('..')
 
 def domains_path():
-    return os.path.join(hackerrank_golf_path(), 'domains')
+    return hackerrank_golf_path().joinpath('domains')
 
 def replace_to_slash(s):
     return s.replace('\\', '/')
 
 def users():
     return ['xenosoz', 'daebak', 'Join us!']
+
+def shorten_language(lang):
+    if lang == 'python3': return 'py3'
+    if lang == 'golang': return 'go'
+    return lang
 
 def filestats():
     pattern = '\.'.join([
@@ -43,13 +48,16 @@ def filestats():
     ])
     pattern = re.compile(pattern)
 
-    for filepath in glob(os.path.join(domains_path(), '**', '*.py'), recursive=True):
-        basename = os.path.basename(filepath)
-        m = re.match(pattern, basename)
+    print(domains_path())
+    for path in domains_path().glob('**/*'):
+        m = re.match(pattern, path.name)
         if m:
-            d = m.groupdict()
-            d['filepath'] = replace_to_slash(filepath)
-            yield d
+            stat = m.groupdict()
+            stat['path'] = path
+            stat['name'] = path.name
+            stat['language_short'] = shorten_language(stat['language'])
+            stat['slash_path'] = replace_to_slash(str(path))
+            yield stat
 
 
 def chal_to_url(chal):
@@ -86,13 +94,13 @@ def progress_table():
         print('    <tr>')
         print('      <th>{}</th>'.format(chal_to_link(chal)))
         for user in users():
-            link = ''
-            checkmark = 'py3'  # U+2714: HEAVY CHECK MARK (✔)
-
-            solved = oracle.get((user, chal), [])
-            if solved:
-                link = ''.join('<a href="{}" alt="{}">{}</a>'.format(x['filepath'], os.path.basename(x['filepath']), checkmark) for x in solved)
-
+            links = []
+            for stat in sorted(oracle.get((user, chal), [])):
+                href = stat['path']
+                alt = stat['name']
+                body = stat['language_short']  # OLD: U+2714; HEAVY CHECK MARK (✔)
+                links.append('<a href="{}" alt="{}">{}</a>'.format(href, alt, body))
+            link = ''.join(links)
             print('      <th>{}</th>'.format(link))
         print('    </tr>')
     print('  </tbody>')

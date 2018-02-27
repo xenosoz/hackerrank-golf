@@ -7,6 +7,7 @@ Contact me if you want to join us!
 * Taihyun Hwang &lt;xenosoz.hwang at gmail.com&gt;
 
 ## Progress
+bin/../domains
 <table>
   <thead>
     <tr>
@@ -147,6 +148,12 @@ Contact me if you want to join us!
       <th><a href="https://www.hackerrank.com/challenges/sock-merchant">sock-merchant</a></th>
       <th><a href="bin/../domains/algorithms-implementation/sock-merchant/xenosoz.sock-merchant.python3.py" alt="xenosoz.sock-merchant.python3.py">py3</a></th>
       <th><a href="bin/../domains/algorithms-implementation/sock-merchant/daebak.sock-merchant.python3.py" alt="daebak.sock-merchant.python3.py">py3</a></th>
+      <th></th>
+    </tr>
+    <tr>
+      <th><a href="https://www.hackerrank.com/challenges/solve-me-first">solve-me-first</a></th>
+      <th><a href="bin/../domains/algorithms-warmup/solve-me-first/xenosoz.solve-me-first.golang.go" alt="xenosoz.solve-me-first.golang.go">go</a></th>
+      <th></th>
       <th></th>
     </tr>
     <tr>
