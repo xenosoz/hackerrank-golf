@@ -95,12 +95,12 @@ def progress_table():
         print('      <th>{}</th>'.format(chal_to_link(chal)))
         for user in users():
             links = []
-            for stat in sorted(oracle.get((user, chal), [])):
+            for stat in oracle.get((user, chal), []):
                 href = stat['path']
                 alt = stat['name']
                 body = stat['language_short']  # OLD: U+2714; HEAVY CHECK MARK (✔)
                 links.append('<a href="{}" alt="{}">{}</a>'.format(href, alt, body))
-            link = ''.join(links)
+            link = ', '.join(links)
             print('      <th>{}</th>'.format(link))
         print('    </tr>')
     print('  </tbody>')

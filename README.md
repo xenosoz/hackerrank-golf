@@ -152,7 +152,7 @@ bin/../domains
     </tr>
     <tr>
       <th><a href="https://www.hackerrank.com/challenges/solve-me-first">solve-me-first</a></th>
-      <th><a href="bin/../domains/algorithms-warmup/solve-me-first/xenosoz.solve-me-first.golang.go" alt="xenosoz.solve-me-first.golang.go">go</a></th>
+      <th><a href="bin/../domains/algorithms-warmup/solve-me-first/xenosoz.solve-me-first.golang.go" alt="xenosoz.solve-me-first.golang.go">go</a>, <a href="bin/../domains/algorithms-warmup/solve-me-first/xenosoz.solve-me-first.python3.py" alt="xenosoz.solve-me-first.python3.py">py3</a></th>
       <th></th>
       <th></th>
     </tr>
