@@ -7,6 +7,7 @@ from pathlib import Path
 from textwrap import dedent
 from glob import glob
 from collections import defaultdict
+from operator import itemgetter
 
 
 def header():
@@ -94,7 +95,7 @@ def progress_table():
         print('      <th>{}</th>'.format(chal_to_link(chal)))
         for user in users():
             links = []
-            for stat in oracle.get((user, chal), []):
+            for stat in sorted(oracle.get((user, chal), []), key=itemgetter('language_short')):
                 href = stat['slash_path']
                 alt = stat['name']
                 body = stat['language_short']  # OLD: U+2714; HEAVY CHECK MARK (✔)

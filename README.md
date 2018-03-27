@@ -160,7 +160,7 @@ Contact me if you want to join us!
     </tr>
     <tr>
       <th><a href="https://www.hackerrank.com/challenges/repeated-string">repeated-string</a></th>
-      <th><a href="bin/../domains/algorithms-implementation/repeated-string/xenosoz.repeated-string.python3.py" alt="xenosoz.repeated-string.python3.py">py3</a></th>
+      <th><a href="bin/../domains/algorithms-implementation/repeated-string/xenosoz.repeated-string.golang.go" alt="xenosoz.repeated-string.golang.go">go</a>, <a href="bin/../domains/algorithms-implementation/repeated-string/xenosoz.repeated-string.python3.py" alt="xenosoz.repeated-string.python3.py">py3</a></th>
       <th></th>
       <th><a href="bin/../domains/algorithms-implementation/repeated-string/timewalker.repeated-string.python3.py" alt="timewalker.repeated-string.python3.py">py3</a></th>
       <th></th>
