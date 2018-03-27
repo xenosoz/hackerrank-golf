@@ -33,7 +33,7 @@ def replace_to_slash(s):
     return s.replace('\\', '/')
 
 def users():
-    return ['xenosoz', 'daebak', 'Join us!']
+    return ['xenosoz', 'daebak', 'timewalker', 'Join us!']
 
 def shorten_language(lang):
     if lang == 'python3': return 'py3'
@@ -48,7 +48,6 @@ def filestats():
     ])
     pattern = re.compile(pattern)
 
-    print(domains_path())
     for path in domains_path().glob('**/*'):
         m = re.match(pattern, path.name)
         if m:
@@ -96,7 +95,7 @@ def progress_table():
         for user in users():
             links = []
             for stat in oracle.get((user, chal), []):
-                href = stat['path']
+                href = stat['slash_path']
                 alt = stat['name']
                 body = stat['language_short']  # OLD: U+2714; HEAVY CHECK MARK (✔)
                 links.append('<a href="{}" alt="{}">{}</a>'.format(href, alt, body))
