@@ -20,7 +20,7 @@ Contact me if you want to join us!
   <tbody>
     <tr>
       <th><a href="https://www.hackerrank.com/challenges/a-very-big-sum">a-very-big-sum</a></th>
-      <th><a href="bin/../domains/algorithms-warmup/a-very-big-sum/xenosoz.a-very-big-sum.python3.py" alt="xenosoz.a-very-big-sum.python3.py">py3</a></th>
+      <th><a href="bin/../domains/algorithms-warmup/a-very-big-sum/xenosoz.a-very-big-sum.python3.py" alt="xenosoz.a-very-big-sum.python3.py">py3</a>, <a href="bin/../domains/algorithms-warmup/a-very-big-sum/xenosoz.a-very-big-sum.scala.scala" alt="xenosoz.a-very-big-sum.scala.scala">scala</a></th>
       <th><a href="bin/../domains/algorithms-warmup/a-very-big-sum/daebak.a-very-big-sum.python3.py" alt="daebak.a-very-big-sum.python3.py">py3</a></th>
       <th></th>
       <th></th>
