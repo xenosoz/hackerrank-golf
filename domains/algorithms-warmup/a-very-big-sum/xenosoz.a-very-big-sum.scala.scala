@@ -1,10 +1,8 @@
 object Solution { def main(args: Array[String]) {
 
-  def readLine(): String = {
-    scala.io.StdIn.readLine
-  }
+  def readLine = scala.io.StdIn.readLine
 
   readLine.trim.toInt
-  println(readLine.split(" ").map(_.trim).map(BigInt(_)).sum)
+  println(readLine.split(" ").map(BigInt(_)).sum)
 
 }}
